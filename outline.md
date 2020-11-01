@@ -10,7 +10,6 @@ the more specific the outline, the more helpful it is
 - comprehend all the features (what each feature represents
 
 ## Data Cleaning
-
 Check for:
 - NaN (missing) values
     - no missing values
@@ -21,13 +20,11 @@ Check for:
 - Data integrity
 
 ## Data Preparation
-
 - drop 'Unnamed: 0' column
     note: using the argument 'index_col=0` when loading in your dataframe makes sure this column doesnt appear
 - replace whitespaces in column names
 
 ## EDA
-
 - see if there are relationships between variables that can be used to create aditional variables
     - look at categories of variables and see if the distributions form together is specific ways
         - if so, we can bin them

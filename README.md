@@ -1,9 +1,11 @@
 # Classification Model Bake-off
-The goal of this bake off is for students to practice the data science process and handling.
+The goal of this bake-off is for students to practice the data science process and handling.
 
 Through this process, you will need to clean and prepare the data, engineer features, fit different models, tune the hyperparameters of those models, and account for how any class imbalance can affect your model.
 
-## Research Study Info::
+## Research Study Summary:
+Link to study [here](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients).
+
 - This research aimed at the case of customers default payments in Taiwan and compares the predictive accuracy of probability of default among six data mining methods. 
 - From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients. 
 - Because the real probability of default is unknown, this study presented the novel Sorting Smoothing Method to estimate the real probability of default. With the real probability of default as the response variable (Y), and the predictive probability of default as the independent variable (X), the simple linear regression result (Y = A + BX) shows that the forecasting model produced by artificial neural network has the highest coefficient of determination; its regression intercept (A) is close to zero, and regression coefficient (B) to one.
@@ -22,7 +24,9 @@ For this bake-off, we will be scoring the submitted predictions using the **F1 s
 
 ## Attribute Information:
 
-This research employed a binary variable, default payment (Yes = 1, No = 0), as the response variable. This study reviewed the literature and used the following 23 variables as explanatory variables:
+This research employed a binary variable, default payment (Yes = 1, No = 0), as the response variable. 
+
+The following 23 variables are explanatory variables:
 
 - X1: Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.
 - X2: Gender (1 = male; 2 = female).

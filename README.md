@@ -6,9 +6,8 @@ Through this process, you will need to clean and prepare the data, engineer feat
 ## Research Study Info::
 - This research aimed at the case of customers default payments in Taiwan and compares the predictive accuracy of probability of default among six data mining methods. 
 - From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients. 
-- Because the real probability of default is unknown, this study presented the novel Sorting Smoothing Method to estimate the real probability of default. With the real probability of default as the response variable (Y), and the predictive probability of default as the independent variable (X), the simple linear regression result (Y = A + BX) shows that the forecasting model produced by artificial neural network has the highest coefficient of determination; its regression intercept (A) is close to zero, and regression coefficient (B) to one. Therefore, among the six data mining techniques, artificial neural network is the only one that can accurately estimate the real probability of default. 
-
-- NT is the abbreviation for New Taiwan dollar. 
+- Because the real probability of default is unknown, this study presented the novel Sorting Smoothing Method to estimate the real probability of default. With the real probability of default as the response variable (Y), and the predictive probability of default as the independent variable (X), the simple linear regression result (Y = A + BX) shows that the forecasting model produced by artificial neural network has the highest coefficient of determination; its regression intercept (A) is close to zero, and regression coefficient (B) to one.
+- Therefore, among the six data mining techniques, artificial neural network is the only one that can accurately estimate the real probability of default. 
 
 ## Data Set Information:
 - This dataset contains information about customers' credit card default payments in Taiwan. 
@@ -60,3 +59,5 @@ This research employed a binary variable, default payment (Yes = 1, No = 0), as 
 - Y: Whether or not they defaulted their payment
     - 1: Did default
     - 0: Did not default
+
+NT is the abbreviation for New Taiwan dollar. 

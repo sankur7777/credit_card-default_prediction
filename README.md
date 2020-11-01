@@ -29,8 +29,10 @@ This research employed a binary variable, default payment (Yes = 1, No = 0), as 
 The following 23 variables are explanatory variables:
 
 - X1: Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.
-- X2: Gender (1 = male; 2 = female).
-- X3: Education (1 = graduate school; 2 = university; 3 = high school; 4 = others).
+- X2: Gender
+    - (1 = male; 2 = female).
+- X3: Education 
+    - (1 = graduate school; 2 = university; 3 = high school; 4 = others).
 - X4: Marital status (1 = married; 2 = single; 3 = others).
 - X5: Age (year).
 - X6 - X11: History of past payment. We tracked the past monthly payment records (from April to September, 2005) as follows:

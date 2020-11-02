@@ -35,14 +35,14 @@ The following 23 variables are explanatory variables:
     - (1 = graduate school; 2 = university; 3 = high school; 4 = others).
 - X4: Marital status (1 = married; 2 = single; 3 = others).
 - X5: Age (year).
-- X6 - X11: History of past payment. We tracked the past monthly payment records (from April to September, 2005) as follows:
+- X6 - X11: History of past payment. We tracked the **past monthly payment dalay records** (from April to September, 2005) as follows:
     - X6 = the repayment status in September, 2005; 
     - X7 = the repayment status in August, 2005;
     - X8 = the repayment status in July, 2005;
     - X9 = the repayment status in June 2005;
     - X10 = the repayment status in May, 2005;
     - X11 = the repayment status in April, 2005
-- The measurement scale for the repayment status is: 
+- The **measurement scale** for the repayment status is: 
     - -1 = pay duly
     - 1 = payment delay for one month
     - 2 = payment delay for two months; . . .;

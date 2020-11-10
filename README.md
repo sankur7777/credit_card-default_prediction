@@ -1,4 +1,6 @@
-# Classification Model Bake-off
+# Credit Card Default Prediction Model
+
+## Classification Model Bake-off
 The goal of this bake-off is for students to practice the data science process and handling.
 
 Through this process, you will need to clean and prepare the data, engineer features, fit different models, tune the hyperparameters of those models, and account for how any class imbalance can affect your model.

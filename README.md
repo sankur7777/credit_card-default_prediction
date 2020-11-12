@@ -1,4 +1,5 @@
 # Credit Card Default Prediction Model
+**Please note that this repository is incomplete and requires revision.**
 
 ## Classification Model Bake-off
 The goal of this bake-off is for students to practice the data science process and handling.

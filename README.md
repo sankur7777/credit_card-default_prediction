@@ -1,5 +1,8 @@
 # Credit Card Default Prediction
-**Please note that this repository is incomplete and requires revision.**
+
+```diff
+Please note that this repository is incomplete and requires revision.
+```
 
 ## Classification Model Bake-off
 The goal of this project is to practice the data science workflow.

@@ -1,9 +1,12 @@
-# Classification Model Bake-off
+# Credit Card Default Prediction Model
+**Please note that this repository is incomplete and requires revision.**
+
+## Classification Model Bake-off
 The goal of this bake-off is for students to practice the data science process and handling.
 
 Through this process, you will need to clean and prepare the data, engineer features, fit different models, tune the hyperparameters of those models, and account for how any class imbalance can affect your model.
 
-## Research Study Summary:
+## Research Study Summary
 Link to study [here](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients).
 
 - This research aimed at the case of customers default payments in Taiwan and compares the predictive accuracy of probability of default among six data mining methods. 
@@ -11,7 +14,7 @@ Link to study [here](https://archive.ics.uci.edu/ml/datasets/default+of+credit+c
 - Because the real probability of default is unknown, this study presented the novel Sorting Smoothing Method to estimate the real probability of default. With the real probability of default as the response variable (Y), and the predictive probability of default as the independent variable (X), the simple linear regression result (Y = A + BX) shows that the forecasting model produced by artificial neural network has the highest coefficient of determination; its regression intercept (A) is close to zero, and regression coefficient (B) to one.
 - Therefore, among the six data mining techniques, artificial neural network is the only one that can accurately estimate the real probability of default. 
 
-## Data Set Information:
+## Data Set Information
 - This dataset contains information about customers' credit card default payments in Taiwan. 
 - It was taken from a study that compares the predictive accuracy of probability of default among six data mining methods. 
 - This data set is not as clean as some of the data you have previously received. 
@@ -19,10 +22,10 @@ Link to study [here](https://archive.ics.uci.edu/ml/datasets/default+of+credit+c
 - As you explore this data you will find that the 'data dictionary' below does not include all of the values that you will find in the actual dataset. 
 - You will have to make decisions on your own as to how you will interpret and handle these unknown values.  
 
-## Evaluation:
+## Evaluation
 For this bake-off, we will be scoring the submitted predictions using the **F1 score.**
 
-## Attribute Information:
+## Attribute Information
 
 This research employed a binary variable, default payment (Yes = 1, No = 0), as the response variable. 
 

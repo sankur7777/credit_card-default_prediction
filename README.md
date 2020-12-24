@@ -1,10 +1,10 @@
-# Credit Card Default Prediction Model
+# Credit Card Default Prediction
 **Please note that this repository is incomplete and requires revision.**
 
 ## Classification Model Bake-off
-The goal of this bake-off is for students to practice the data science process and handling.
+The goal of this project is to practice the data science workflow.
 
-Through this process, you will need to clean and prepare the data, engineer features, fit different models, tune the hyperparameters of those models, and account for how any class imbalance can affect your model.
+Through this process, we will need to clean and prepare the data, engineer features, fit different models, tune the hyperparameters of those models, and account for how any class imbalance can affect the model.
 
 ## Research Study Summary
 Link to study [here](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients).
@@ -23,7 +23,7 @@ Link to study [here](https://archive.ics.uci.edu/ml/datasets/default+of+credit+c
 - You will have to make decisions on your own as to how you will interpret and handle these unknown values.  
 
 ## Evaluation
-For this bake-off, we will be scoring the submitted predictions using the **F1 score.**
+For this project, predictions will be evaluated using the **F1 score.**
 
 ## Attribute Information
 
@@ -70,3 +70,13 @@ The following 23 variables are explanatory variables:
     - 0: Did not default
 
 NT is the abbreviation for New Taiwan dollar. 
+
+## For More Information
+
+- For additional information or suggestions, contact Sidney Kung at [sidneyjkung@gmail.com](mailto:sidneyjkung@gmail.com)
+
+**Let's connect!**
+
+- [LinkedIn](https://www.linkedin.com/in/sidneykung/)
+
+- [Twitter](https://twitter.com/sidney_k98)

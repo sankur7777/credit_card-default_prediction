@@ -4,35 +4,15 @@
 Please note that this repository is incomplete and requires revision.
 ```
 
-## Classification Model Bake-off
-The goal of this project is to practice the data science workflow.
+## Overview
 
-Through this process, we will need to clean and prepare the data, engineer features, fit different models, tune the hyperparameters of those models, and account for how any class imbalance can affect the model.
+This project aims to build a classification model that can predict whether or not a customer will default on their credit card. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be valuable. After cleaning the data, handling class imbalance, feature engineering and tuning hyperparameters, the final Logisitic Regression model achieved an F1 score of 0.5418.
 
-## Research Study Summary
-Link to study [here](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients).
+## Data Understanding
 
-- This research aimed at the case of customers default payments in Taiwan and compares the predictive accuracy of probability of default among six data mining methods. 
-- From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients. 
-- Because the real probability of default is unknown, this study presented the novel Sorting Smoothing Method to estimate the real probability of default. With the real probability of default as the response variable (Y), and the predictive probability of default as the independent variable (X), the simple linear regression result (Y = A + BX) shows that the forecasting model produced by artificial neural network has the highest coefficient of determination; its regression intercept (A) is close to zero, and regression coefficient (B) to one.
-- Therefore, among the six data mining techniques, artificial neural network is the only one that can accurately estimate the real probability of default. 
+Link to research study [here](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients).
 
-## Data Set Information
-- This dataset contains information about customers' credit card default payments in Taiwan. 
-- It was taken from a study that compares the predictive accuracy of probability of default among six data mining methods. 
-- This data set is not as clean as some of the data you have previously received. 
-- Below is all of the information that is given about the different columns of data. 
-- As you explore this data you will find that the 'data dictionary' below does not include all of the values that you will find in the actual dataset. 
-- You will have to make decisions on your own as to how you will interpret and handle these unknown values.  
-
-## Evaluation
-For this project, predictions will be evaluated using the **F1 score.**
-
-## Attribute Information
-
-This research employed a binary variable, default payment (Yes = 1, No = 0), as the response variable. 
-
-The following 23 variables are explanatory variables:
+This dataset contains information about customers' credit card default payments in Taiwan. The following 23 variables are the initial features included.
 
 - X1: Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.
 - X2: Gender
@@ -74,8 +54,26 @@ The following 23 variables are explanatory variables:
 
 NT is the abbreviation for New Taiwan dollar. 
 
-## For More Information
+## Methods
 
+This is a binary classification problem where the target variable is default payment (Yes = 1, No = 0).
+
+After cleaning the data, handling class imbalance and feature engineering, several baseline models were fit to the training data. Baselines included K Nearest Neigbors, Logistic Regression and Decision Trees. Each model iteration's hyperparameters were tuned with GridSearchCV. Predictions were evaluated using the **F1 Score.
+
+## Final Model Analysis
+the final Logisitic Regression model achieved an F1 score of 0.5418.
+
+
+## Repository Contents
+- `notebooks`: contains all modeling notebooks
+- `pickle`: contains models and scalers
+- `src`: contains dataset
+- `README.md`: public-facing preview
+- `final_notebook.ipynb`: final version of EDA, feature engineering and modeing process
+- `predictions_sidney_kung.csv`: File with final model's prediction on holdout set
+
+## For More Information
+- See the [full project overview](https://github.com/sidneykung/cc_default_prediction/blob/master/final_notebook.ipynb) in the `final_notebook.ipynb` Jupyter Notebook.
 - For additional information or suggestions, contact Sidney Kung at [sidneyjkung@gmail.com](mailto:sidneyjkung@gmail.com)
 
 **Let's connect!**

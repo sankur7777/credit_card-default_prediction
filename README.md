@@ -61,7 +61,7 @@ This is a binary classification problem where the target variable is default pay
 After cleaning the data, handling class imbalance and feature engineering, several baseline models were fit to the training data. Baselines included K Nearest Neigbors, Logistic Regression and Decision Trees. Each model iteration's hyperparameters were tuned with GridSearchCV. Predictions were evaluated using the **F1 Score.
 
 ## Final Model Analysis
-the final Logisitic Regression model achieved an F1 score of 0.5418.
+The final Logisitic Regression model achieved an F1 score of 0.5418.
 
 
 ## Repository Contents

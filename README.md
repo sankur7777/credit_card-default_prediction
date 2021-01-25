@@ -65,12 +65,18 @@ The final Logisitic Regression model achieved an F1 score of 0.5418.
 
 
 ## Repository Contents
-- `notebooks`: contains all modeling notebooks
-- `pickle`: contains models and scalers
-- `src`: contains dataset
-- `README.md`: public-facing preview
-- `final_notebook.ipynb`: final version of EDA, feature engineering and modeing process
-- `predictions_sidney_kung.csv`: File with final model's prediction on holdout set
+```bash
+.
+├── notebooks                          # contains modeling notebooks
+├── pickle                             # contains models and scalers
+├── src                                # source folder
+│   └── training_data.csv              # raw dataset
+├── README.md                          # public-facing preview
+├── final_notebook.ipynb               # final version of EDA, feature engineering and modeling process
+└── predictions.py                     # final model's predictions on holdout set
+
+
+```
 
 ## For More Information
 - See the [full project overview](https://github.com/sidneykung/cc_default_prediction/blob/master/final_notebook.ipynb) in the `final_notebook.ipynb` Jupyter Notebook.

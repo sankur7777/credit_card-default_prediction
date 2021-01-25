@@ -69,6 +69,7 @@ The final Logisitic Regression model achieved an F1 score of 0.5418.
 .
 ├── notebooks                          # contains modeling notebooks
 ├── pickle                             # contains models and scalers
+├── visualizations                     # contains graphs and images
 ├── src                                # source folder
 │   └── training_data.csv              # raw dataset
 ├── README.md                          # public-facing preview

@@ -33,11 +33,11 @@ This [dataset](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+cl
 NT is the abbreviation for New Taiwan dollar. 
 
 The **measurement scale** for the repayment status is: 
-    - -1 = pay duly
-    - 1 = payment delay for one month
-    - 2 = payment delay for two months [...]
-    - 8 = payment delay for eight months
-    - 9 = payment delay for nine months and above
+- -1 = pay duly
+- 1 = payment delay for one month
+- 2 = payment delay for two months [...]
+- 8 = payment delay for eight months
+- 9 = payment delay for nine months and above
 
 ## Methods
 

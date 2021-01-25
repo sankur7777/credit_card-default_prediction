@@ -8,13 +8,11 @@ Please note that this repository is incomplete and requires revision.
 
 ## Overview
 
-This project aims to build a classification model that can predict whether or not a customer will default on their credit card. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be valuable. After cleaning the data, handling class imbalance, feature engineering and tuning hyperparameters, the final Logisitic Regression model achieved an F1 score of 0.5418.
+This project aims to build a classification model that can predict whether or not a customer will default on their credit card. From the perspective of risk management, understanding the customer characteristics that lead to this outcome can aid creditors in deciding reasonable credit limits to prevent this. After cleaning the data, handling class imbalance, feature engineering and tuning hyperparameters, the final Logistic Regression model achieved an F1 score of 0.5418.
 
 ## Data Understanding
 
-Link to research study [here](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients).
-
-This [dataset](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients) contains information about customers' credit card default payments in Taiwan.
+This [dataset](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients) contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
 
 ### Cleaned Dataset
 
@@ -28,9 +26,7 @@ This [dataset](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+cl
 | pay_status_sept | Amount of monthly payment delay record, broken down from April to September 2006. These features include pay_status_aug, pay_status_july, pay_status_june, pay_status_may and pay_status_april. |
 | bill_sept | Amount of bill statement (NT dollar). These features include bill_aug, bill_july, bill_june, bill_may, and bill_april. |
 | payment_sep | Amount of previous payment (NT dollar). These features include payment_aug, payment_jul, payment_jun, payment_may and payment_april. |
-| Y | Whether or not they defaulted their payment. 1 = did default; 0 = did not default. |
-
-NT is the abbreviation for New Taiwan dollar. 
+| default | Whether or not they defaulted their payment. 1 = did default; 0 = did not default. |
 
 The **measurement scale** for the repayment status is: 
 - -1 = pay duly
@@ -41,12 +37,10 @@ The **measurement scale** for the repayment status is:
 
 ## Methods
 
-This is a binary classification problem where the target variable is default payment (Yes = 1, No = 0).
-
-After cleaning the data, handling class imbalance and feature engineering, several baseline models were fit to the training data. Baselines included K Nearest Neigbors, Logistic Regression and Decision Trees. Each model iteration's hyperparameters were tuned with GridSearchCV. Predictions were evaluated using the **F1 Score.
+This is a binary classification problem where the target variable is whether or not a client will default on their payment (Yes = 1, No = 0). After cleaning the data, handling class imbalance and feature engineering, several baseline models were fit to the training data. Baselines included K Nearest Neighbors, Logistic Regression and Decision Trees. Each model iteration's hyperparameters were tuned with GridSearchCV. Predictions were evaluated using the **F1 Score**.
 
 ## Final Model Analysis
-The final Logisitic Regression model achieved an F1 score of 0.5418.
+The final Logistic Regression model achieved an F1 score of 0.5418.
 
 
 ## Repository Contents

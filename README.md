@@ -4,6 +4,8 @@
 Please note that this repository is incomplete and requires revision.
 ```
 
+![banner](./visualizations/banner.jpg)
+
 ## Overview
 
 This project aims to build a classification model that can predict whether or not a customer will default on their credit card. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be valuable. After cleaning the data, handling class imbalance, feature engineering and tuning hyperparameters, the final Logisitic Regression model achieved an F1 score of 0.5418.

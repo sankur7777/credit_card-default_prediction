@@ -72,8 +72,7 @@ The final Logisitic Regression model achieved an F1 score of 0.5418.
 ├── src                                # source folder
 │   └── training_data.csv              # raw dataset
 ├── README.md                          # public-facing preview
-├── final_notebook.ipynb               # final version of EDA, feature engineering and modeling process
-└── predictions.py                     # final model's predictions on holdout set
+└── final_notebook.ipynb               # final version of EDA, feature engineering and modeling process
 
 
 ```

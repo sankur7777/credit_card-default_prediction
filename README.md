@@ -24,26 +24,11 @@ This [dataset](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+cl
 | gender | 1 = male; 2 = female |
 | education | 1 = graduate school; 2 = university; 3 = high school; 4 = others |
 | marital_status | 1 = married; 2 = single; 3 = others |
-| age |  |
-| pay_status_sept | Amount of montly payment delay record, broken down from April to September 2006. |
-| pay_status_aug |  |
-| pay_status_july |  |
-| pay_status_june |  |
-| pay_status_may |  |
-| pay_status_april |  |
-| bill_sept | Amount of bill statement (NT dollar) |
-| bill_aug |  |
-| bill_july |  |
-| bill_june |  |
-| bill_may |  |
-| bill_april |  |
-| payment_sep | Amount of previous payment (NT dollar) |
-| payment_aug |  |
-| payments_jul |  |
-| payment_jun |  |
-| payment_may |  |
-| payment_april |  |
-| Y | Whether or not they defaulted their payment. 1 = did default; 0 = did not default |
+| age | Age of customer in years. |
+| pay_status_sept | Amount of monthly payment delay record, broken down from April to September 2006. These features include pay_status_aug, pay_status_july, pay_status_june, pay_status_may and pay_status_april. |
+| bill_sept | Amount of bill statement (NT dollar). These features include bill_aug, bill_july, bill_june, bill_may, and bill_april. |
+| payment_sep | Amount of previous payment (NT dollar). These features include payment_aug, payment_jul, payment_jun, payment_may and payment_april. |
+| Y | Whether or not they defaulted their payment. 1 = did default; 0 = did not default. |
 
 NT is the abbreviation for New Taiwan dollar. 
 

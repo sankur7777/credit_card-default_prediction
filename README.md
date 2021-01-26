@@ -40,8 +40,6 @@ The **measurement scale** for the repayment status is:
 
 This is a binary classification problem where the target variable is whether or not a client will default on their payment (Yes = 1, No = 0). After cleaning the data, handling class imbalance and feature engineering, several baseline models were fit to the training data. Baselines included K Nearest Neighbors, Logistic Regression, Decision Trees and Random Forest. Each model iteration's hyperparameters were tuned with GridSearchCV. Predictions were evaluated using the **F1 Score**.
 
-## Final Model 
-
 The final Random Forest model achieved an F1 score of 0.5412.
 
 ![matrix](./visualizations/normalized_forest_matrix.png)

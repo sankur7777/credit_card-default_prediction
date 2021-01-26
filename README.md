@@ -14,7 +14,7 @@ This project aims to build a classification model that can predict whether or no
 
 This [dataset](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients) contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
 
-![class](./visualizations/class_imbalance.jpg)
+![class](./visualizations/class_imbalance.png)
 
 The dataset had a class imbalance where only 22% of the customers defaulted on their payment.
 
@@ -48,7 +48,7 @@ This is a binary classification problem where the target variable is whether or 
 
 The final Random Forest model achieved an F1 score of 0.5412.
 
-![class](./visualizations/class_imbalance.jpg)
+![matrix](./visualizations/class_imbalance.png)
 
 ## Repository Contents
 ```bash

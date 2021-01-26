@@ -1,9 +1,5 @@
 # Credit Card Default Prediction
 
-```diff
-Please note that this repository is incomplete and requires revision.
-```
-
 ![banner](./visualizations/banner.jpg)
 
 ## Overview
@@ -47,8 +43,6 @@ This is a binary classification problem where the target variable is whether or 
 ## Final Model 
 
 The final Random Forest model achieved an F1 score of 0.5412.
-
-![matrix](./visualizations/normalized_forest_matrix.png)
 
 ## Repository Contents
 ```bash

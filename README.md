@@ -44,6 +44,8 @@ This is a binary classification problem where the target variable is whether or 
 
 The final Random Forest model achieved an F1 score of 0.5412.
 
+![matrix](./visualizations/normalized_forest_matrix.png)
+
 ## Repository Contents
 ```bash
 .

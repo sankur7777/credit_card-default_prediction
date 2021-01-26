@@ -14,6 +14,10 @@ This project aims to build a classification model that can predict whether or no
 
 This [dataset](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients) contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
 
+![class](./visualizations/class_imbalance.jpg)
+
+The dataset had a class imbalance where only 22% of the customers defaulted on their payment.
+
 ### Cleaned Dataset
 
 | Column Name | Description |
@@ -31,17 +35,20 @@ This [dataset](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+cl
 The **measurement scale** for the repayment status is: 
 - -1 = pay duly
 - 1 = payment delay for one month
-- 2 = payment delay for two months [...]
+- 2 = payment delay for two months 
+- [...]
 - 8 = payment delay for eight months
 - 9 = payment delay for nine months and above
 
 ## Methods
 
-This is a binary classification problem where the target variable is whether or not a client will default on their payment (Yes = 1, No = 0). After cleaning the data, handling class imbalance and feature engineering, several baseline models were fit to the training data. Baselines included K Nearest Neighbors, Logistic Regression and Decision Trees. Each model iteration's hyperparameters were tuned with GridSearchCV. Predictions were evaluated using the **F1 Score**.
+This is a binary classification problem where the target variable is whether or not a client will default on their payment (Yes = 1, No = 0). After cleaning the data, handling class imbalance and feature engineering, several baseline models were fit to the training data. Baselines included K Nearest Neighbors, Logistic Regression, Decision Trees and Random Forest. Each model iteration's hyperparameters were tuned with GridSearchCV. Predictions were evaluated using the **F1 Score**.
 
-## Final Model Analysis
-The final Logistic Regression model achieved an F1 score of 0.5418.
+## Final Model 
 
+The final Random Forest model achieved an F1 score of 0.5412.
+
+![class](./visualizations/class_imbalance.jpg)
 
 ## Repository Contents
 ```bash
